@@ -1,7 +1,15 @@
 package model;
-
+    /*
+    Транспорт є сепер класом класів "Car", "MotorcycleController"
+    Цей клас створений за методом ООП Наслідування
+     */
+    /*
+    Також в класі використовується метод ООП Інкапсуляція (це модифікація доступу до змінних private та викор. геттерів та сеттерів)
+     */
 public class Transport {
+    // назва транспорту
     private String name;
+    // швидкість
     private int speed;
     private Engine engine;
     private Wheels wheels;
